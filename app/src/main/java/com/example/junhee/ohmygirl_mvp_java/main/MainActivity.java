@@ -1,12 +1,17 @@
 package com.example.junhee.ohmygirl_mvp_java.main;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 
 import com.example.junhee.ohmygirl_mvp_java.R;
 import com.example.junhee.ohmygirl_mvp_java.utils.ActivityUtils;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity implements Main2Fragment.OnBackKeyListener {
+
+    ArrayList<android.support.v4.app.Fragment> fragments = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +24,22 @@ public class MainActivity extends AppCompatActivity {
             mainFragment = MainFragment.newInstance();
             ActivityUtils.addFragmentToActivity(getSupportFragmentManager(), mainFragment, R.id.content_frame);
         }
+        fragments.add(mainFragment);
         new MainPresenter(mainFragment);
+    }
+
+    public void addFragment(Fragment fragment) {
+        fragments.add(fragment);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+
+    @Override
+    public void goBack(Fragment fragment) {
+        ActivityUtils.popFragmentToActivity(getSupportFragmentManager(), fragment, R.id.content_frame);
+
     }
 }

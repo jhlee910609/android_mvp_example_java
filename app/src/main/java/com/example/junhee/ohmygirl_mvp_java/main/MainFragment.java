@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.junhee.ohmygirl_mvp_java.R;
+import com.example.junhee.ohmygirl_mvp_java.utils.ActivityUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -29,6 +30,9 @@ public class MainFragment extends Fragment implements MainContract.View {
     @BindView(R.id.btnShowBye)
     Button btnShowBye;
 
+    @BindView(R.id.btnGo)
+    Button btnGo;
+
     public static MainFragment newInstance() {
         MainFragment fragment = new MainFragment();
         return fragment;
@@ -36,6 +40,18 @@ public class MainFragment extends Fragment implements MainContract.View {
 
     public MainFragment() {
         // Required empty public constructor
+    }
+
+    @OnClick(R.id.btnGo)
+    void goAnotherFragment() {
+        Main2Fragment fragment = new Main2Fragment();
+        ActivityUtils.addFragmentToActivity(getFragmentManager(), fragment, R.id.content_frame);
+        ((MainActivity) getActivity()).addFragment(fragment);
+
+
+//        Intent intent = new Intent(getContext(), AnotherActivity.class);
+//        intent.putExtra("string", "start!!!!!!!!!!!!!!!!!!!!!!!!!");
+//        startActivity(intent);
     }
 
 
@@ -54,13 +70,13 @@ public class MainFragment extends Fragment implements MainContract.View {
     }
 
     @OnClick(R.id.btnShowHi)
-    void showHi(){
+    void showHi() {
         btnHiClicked();
 
     }
 
     @OnClick(R.id.btnShowBye)
-    void showBye(){
+    void showBye() {
         btnByeClicked();
 
     }

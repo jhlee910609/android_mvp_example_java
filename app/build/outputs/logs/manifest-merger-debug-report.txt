@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
 MERGED from [com.jakewharton:butterknife:8.8.1] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/2e6721d596bcb85f8365de80dce7225d/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d122c255f48f60e9829be751f162135c/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/2d51404e5d05253f1f163658c858b77a/AndroidManifest.xml:2:1-11:12
@@ -16,25 +16,25 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/JunHee/.gra
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/212efad57b9ae2a19fdc79a3c68dd51e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/429abc6a69403e3c449959f7c1bb5561/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/96075f0e060afda5589d03bf57f8850b/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:3:5-51
 		INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml
-		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml
-		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d122c255f48f60e9829be751f162135c/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d122c255f48f60e9829be751f162135c/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/JunHee/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/2d51404e5d05253f1f163658c858b77a/AndroidManifest.xml:9:5-20
@@ -83,6 +83,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.junhee.ohmygirl_mvp_java.main2.AnotherActivity
+ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:19:9-68
+	android:name
+		ADDED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml:19:19-56
 uses-sdk
 INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/src/main/AndroidManifest.xml

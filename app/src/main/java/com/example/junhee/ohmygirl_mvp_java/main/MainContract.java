@@ -10,9 +10,11 @@ import com.example.junhee.ohmygirl_mvp_java.BaseView;
 public interface MainContract {
 
     interface View extends BaseView<MainPresenter> {
-        void btnHiClicked();
-        void btnByeClicked();
-        void showStart();
+            void btnHiClicked();
+            void btnByeClicked();
+            void showStart();
+
+
     }
 
     interface Presenter extends BasePresenter {

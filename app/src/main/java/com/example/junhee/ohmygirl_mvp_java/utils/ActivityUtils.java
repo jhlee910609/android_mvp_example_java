@@ -18,4 +18,14 @@ public class ActivityUtils {
         transaction.add(frameId, fragment);
         transaction.commit();
     }
+
+    public static void popFragmentToActivity(@NonNull FragmentManager fragmentManager,
+                                             @NonNull Fragment fragment, int frameId){
+
+        android.support.v4.app.FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.remove(fragment);
+        transaction.commit();
+
+
+    }
 }
