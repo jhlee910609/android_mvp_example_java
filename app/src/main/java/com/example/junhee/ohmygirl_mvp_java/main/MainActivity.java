@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements Main2Fragment.OnB
         super.onBackPressed();
     }
 
+    // 뒤로 가기
     @Override
     public void goBack(Fragment fragment) {
         ActivityUtils.popFragmentToActivity(getSupportFragmentManager(), fragment, R.id.content_frame);
