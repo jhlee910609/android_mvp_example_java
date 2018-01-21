@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.junhee.ohmygirl_mvp_java.R;
@@ -15,6 +16,7 @@ import com.example.junhee.ohmygirl_mvp_java.utils.ActivityUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.reactivex.Observable;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -33,6 +35,12 @@ public class MainFragment extends Fragment implements MainContract.View {
     @BindView(R.id.btnGo)
     Button btnGo;
 
+    @BindView(R.id.btnRx)
+    Button btnRx;
+
+    @BindView(R.id.tv)
+    TextView tv;
+
     public static MainFragment newInstance() {
         MainFragment fragment = new MainFragment();
         return fragment;
@@ -47,11 +55,6 @@ public class MainFragment extends Fragment implements MainContract.View {
         Main2Fragment fragment = new Main2Fragment();
         ActivityUtils.addFragmentToActivity(getFragmentManager(), fragment, R.id.content_frame);
         ((MainActivity) getActivity()).addFragment(fragment);
-
-
-//        Intent intent = new Intent(getContext(), AnotherActivity.class);
-//        intent.putExtra("string", "start!!!!!!!!!!!!!!!!!!!!!!!!!");
-//        startActivity(intent);
     }
 
 
@@ -67,6 +70,16 @@ public class MainFragment extends Fragment implements MainContract.View {
     @Override
     public void onResume() {
         super.onResume();
+
+    }
+
+    private int startInt = 10;
+
+    @OnClick(R.id.btnRx)
+    void startRx(){
+        Observable.just(startInt)
+                .map(i -> startInt = i * 10)
+                .subscribe(full -> tv.setText(startInt + ""));
     }
 
     @OnClick(R.id.btnShowHi)
@@ -102,5 +115,11 @@ public class MainFragment extends Fragment implements MainContract.View {
     @Override
     public void setPresenter(MainPresenter presenter) {
         this.mPresenter = presenter;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
     }
 }

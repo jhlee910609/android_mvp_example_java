@@ -1,4 +1,4 @@
-#Sun Jan 14 00:09:03 KST 2018
+#Sun Jan 21 23:35:41 KST 2018
 base.0=/Users/JunHee/Desktop/OhMyGirl_MVP_Java/app/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex
